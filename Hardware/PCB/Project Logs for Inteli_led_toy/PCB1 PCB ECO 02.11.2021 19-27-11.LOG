@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetR4_1 Pin=VT1-1
+Removed Pin From Net: NetName=NetBF1_2 Pin=VT1-2
+Removed Pin From Net: NetName=GND Pin=VT1-3
+Removed Member From Class: ClassName=Sheet1 Member=VT1
+Added Component: Designator=VT?(SOT23_123)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentKind"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Model"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Z1(OSC: 3215)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Frequency"; Value = "32.768kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-A5/SER4103CT-ND/6188447"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LoadCapacitance"; Value = "12.5pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Epson"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "case 3215"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "FC-135 32.7680KA-A5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = "-40...+85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "±20ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TypeOscilator"; Value = "Crystal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ValueManufacturerPartNumber"; Value = "Crystal, 32.768kHz, 12.5pF, ±20ppm, case 3215, -40...+85°C"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR4_1 Pin=VT?-1
+Added Pin To Net: NetName=NetBF1_2 Pin=VT?-2
+Added Pin To Net: NetName=GND Pin=VT?-3
+Added Pin To Net: NetName=OSC32_IN Pin=Z1-1
+Added Pin To Net: NetName=OSC32_OUT Pin=Z1-2
+Added Member To Class: ClassName=Sheet1 Member=Component VT? BC848
+Added Member To Class: ClassName=Sheet1 Member=Component Z1 Crystal, 32.768kHz, 12.5pF, ±20ppm, case 3215, -40...+85°C
+Added Room: Name=Sheet1
